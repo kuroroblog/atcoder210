@@ -15,7 +15,7 @@ for i in range(0, K):
 # 要素数 = 種類数
 ans = len(kinds)
 
-# 連続するK個の探し方 = i番目の配列を削除し、K + i番目の配列の追加を繰り返すことを意味する。
+# 連続するK個の探し方 = i番目の要素を削除し、K + i番目の要素の追加を繰り返すことを意味する。
 for i in range(0, N - K):
     # 種類として外す処理
     # 参考 : https://note.nkmk.me/python-dict-clear-pop-popitem-del/
